@@ -26,6 +26,8 @@ function Homepage() {
     //Post request
     
       function submit(){
+        console.log("légyszi működj");
+        /*
         fetch('./data/data.json',{
           method: 'POST',
           headers: {
@@ -37,7 +39,7 @@ function Homepage() {
           .then(response => setRes(true))
           .catch(err => setRes(false))
           .finally(()=> setTimeout(setFormShow(false), 5000))
-       
+       */
       }
     
   return (
